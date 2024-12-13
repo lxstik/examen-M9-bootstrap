@@ -1,0 +1,113 @@
+main{
+    .newEra{
+        padding-top: 156px;
+        h1{
+            font-size: 74px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400px;
+        }
+        .btn {
+            width: 251px;
+            height: 56px;
+            border-radius: 37px;
+            margin-top: 30px;
+            font-size: 21.33px;
+        }
+    }
+
+    .photos1{
+        padding-top: 56px;
+        height: 506px;
+    }
+
+    .imgs2 {
+        height: 445px;
+        border-radius: 12px;
+        background-color: #F4F4F4;        
+        .innerPadding {
+            padding: 80px 40px; 
+        }
+        h1 {
+            font-size: 52px;
+        }
+        .wellbeing{
+            padding-left: 40px;
+        }
+        .leaf-item {
+            text-align: left;
+            max-width: 200px;
+            img {
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 16px;
+
+            }
+        }
+        .meditation-img {
+            max-width: 100%;
+            height: auto;
+            padding-top: 60px;
+        }
+    }
+
+    .organic-produce-section {
+        padding: 56px 0px;
+        img {
+            border-radius: 26px;
+            width: 658px;
+            height: 578px;
+            
+        }
+    
+        h2 {
+            padding-bottom: 15px;
+            font-size: 53px;
+            color: #333;
+        }
+    
+        p{
+            color: #666;
+        }
+    
+        .icon {
+            width: 40px;
+            height: 40px; 
+        }
+    
+        ul {
+            padding-top: 30px;
+            li {
+                padding-bottom: 30px;
+                display: flex;
+                align-items: center;
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+footer {
+    background-color: #285E67;
+    .footcont {
+        nav {
+            background-color: #285E67 !important;
+        }
+        a, p, span { 
+            color: white !important; 
+            text-decoration: none;
+            padding-right: 30px; 
+        }
+        .logos{
+            div{
+                img{
+                    margin: 20px 14px 0px 0px;
+                }
+            }
+        }
+    }
+}
